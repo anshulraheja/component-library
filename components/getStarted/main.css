@@ -1,0 +1,35 @@
+.main-section{
+    display: flex;   
+    padding: 0.75rem;
+    gap: 1rem;
+    height: 100%;
+}
+.sidebar-container{
+   padding: 0.25rem;
+   flex: 200px;
+   overflow: auto;
+}
+.introduction-list > h3,
+.component-list > h3{
+    padding: 0.25rem;
+    border-bottom: 1px solid var(--black);
+    margin-bottom: 0.5rem;
+}
+.introduction-list li,
+.component-list li {
+    padding: 0.25rem;
+}
+.active-page {
+    color: var(--active-link);
+}
+.documentation-container{
+   padding: 0.5rem;
+   flex: calc(100% - 200px);
+   overflow: auto;
+}
+
+@media (max-width:768px){
+    .sidebar-container{
+        display: none;
+    }
+}
