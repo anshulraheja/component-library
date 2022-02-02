@@ -1,4 +1,5 @@
-/* import all component css */
-@import url(../css/reset.css);
+@import url(../css/root.css);
 @import url(../css/navbar.css);
-@import url(../components/getStarted/main.css);
+@import url(../components/main.css);
+
+

@@ -1,23 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-:root {
-    --black: #333333;
-    --white: #f5f5f5;
-    --active-link: #1EA7FD;
-}
-html {
-  scroll-behavior: smooth;
-}
-body{
-    background: var(--white);
-    color: var(--black);
-}
-.container{
-    min-width: 300px;
-    width: 90%;
-    height: 100vh;
-    margin: auto;
-}
-/* main section */
+/* landing page */
 main{
     display: flex;
     flex-direction: column;
@@ -58,7 +39,7 @@ main .subheading{
     color : var(--white);
 }
 .btn-secondary{
-    background-color: var(white);
+    background-color: var(--white);
     color : var(--black);
 }
 @media (max-width: 768px) {

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root {
+    --black: #333333;
+    --white: #f5f5f5;
+    --active-link: #1EA7FD;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* reset css */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+img {
+    width: 100%;
+}
+button, a{
+    background: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+/* common css */
+body{
+    background: var(--white);
+    color: var(--black);
+}
+.container{
+    min-width: 300px;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}

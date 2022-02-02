@@ -1,3 +1,4 @@
+/* installation page */
 .main-section{
     display: flex;   
     padding: 0.75rem;
@@ -27,7 +28,6 @@
    flex: calc(100% - 200px);
    overflow: auto;
 }
-
 @media (max-width:768px){
     .sidebar-container{
         display: none;
