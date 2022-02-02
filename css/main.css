@@ -23,8 +23,12 @@
 .component-list li {
     padding: 0.25rem;
 }
+.introduction-list a,
+.component-list a {
+    color: var(--black);
+}
 .active-page {
-    color: var(--active-link);
+    color: var(--active-link) !important;
 }
 .documentation-container{
    padding: 0.5rem;
