@@ -1,0 +1,83 @@
+:root{
+    --white-color: #fff;
+    --text-color: rgba(0,0,0,.54);
+    --button-color: rgb(98, 0, 238);
+}
+.component-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* CARDS */
+.card {
+    background: var(--white-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    font-size: 0.875rem;
+    display: flex;
+    position: relative;
+}
+.vertical-card{
+    max-width: 17rem;
+    flex-direction: column;
+}
+.horizontal-card{
+    flex-direction: row;
+}
+.card-image > img{
+    border-radius: 4px 4px 0 0;
+}
+.card-content-header{
+    padding: 1rem;
+}
+.card-content-header > h2{
+    line-height: 2rem;
+}
+.card-content-header > h4{
+    color: var(--text-color);
+}
+.card-content-description{
+    padding: 0 1rem 0.5rem;
+    color: var(--text-color);
+}
+.card-footer{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.card-footer button{
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+.card-footer-btn > button{
+    color:var(--button-color);
+    font-weight: 600;
+}
+.card-footer-icons {
+    margin-left: auto;
+}
+.card-footer-icons > button{
+    color: var(--text-color);
+    font-size: 1rem;
+}
+/* Basic w/ Text over Media */
+.card-image{
+    position: relative;
+}
+.overlay-card{
+    color: var(--white-color);
+    position: absolute;
+    bottom: 0;
+}
+.overlay-card > h4 {
+    color: var(--white-color);
+}
+.text-over-media-description{
+    padding: 1rem 1rem 0;
+}
+/* card with text only */
+.text-only-card{
+    max-width: 17rem;
+}
