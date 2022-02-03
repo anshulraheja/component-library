@@ -1,0 +1,105 @@
+:root{
+    --text-color: #ffffff;
+    --default-btn-color: #cfcbcb;
+    --default-btn-hover-color: #a3a0a0;
+    --primary-btn-color: #337ab7;
+    --primary-btn-hover-color: #5998cd;
+    --success-btn-color: #65db65;
+    --success-btn-hover-color: #89da89;
+    --error-btn-color: #d43f3a;
+    --error-btn-hover-color:#d46360;
+    --link-btn-color: #3137e1;
+    --link-btn-hover-color: #6569df;
+    --float-btn-color:#0d5be1;
+    --float-btn-shadow-color:#9391df;
+    --float-btn-hover-color: #121124;
+    
+}
+.btn{
+    padding: 0.5rem 1rem;  
+    border-radius: 0.5rem;
+}
+.btn-default{
+    background: var(--default-btn-color);
+}
+.btn-default:hover{
+    background: var(--default-btn-hover-color);
+}
+.btn-primary{
+    background: var(--primary-btn-color);
+    color: var(--text-color);
+}
+.btn-primary:hover{
+    background: var(--primary-btn-hover-color);
+}
+.btn-error{
+    background: var(--error-btn-color);
+    color: var(--text-color);
+}
+.btn-error:hover{
+    background: var(--error-btn-hover-color);
+}
+.btn-success{
+    background: var(--success-btn-color);
+    color: var(--text-color);
+}
+.btn-success:hover{
+    background: var(--success-btn-hover-color);
+}
+.btn-link{
+    color: var(--link-btn-color);
+    font-weight: 500;
+}
+.btn-link:hover{
+    text-decoration: underline;
+    color: var(--link-btn-hover-color);
+}
+.btn-outline-default{
+    border: 1px solid var(--default-btn-color);
+}
+.btn-outline-default:hover{
+    background: var(--default-btn-color);
+}
+.btn-outline-primary{
+    border: 1px solid var(--primary-btn-color);
+    color: var(--primary-btn-color);
+}
+.btn-outline-primary:hover{
+    background: var(--primary-btn-color);
+    color: var(--text-color);
+}
+.btn-outline-error{
+    border: 1px solid var(--error-btn-color);
+    color: var(--error-btn-color);
+}
+.btn-outline-error:hover{
+    background: var(--error-btn-color);
+    color: var(--text-color);
+}
+.btn-outline-success{
+    border: 1px solid var(--success-btn-color);
+    color: var(--success-btn-color);
+}
+.btn-outline-success:hover{
+    background: var(--success-btn-color);
+    color: var(--text-color);
+}
+.btn-floating {
+    background: var(--float-btn-color);
+    box-shadow: 1px 1px 10px 1px var(--float-btn-shadow-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    font-size: 1rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+}
+.btn-floating:hover{
+    background: var(--float-btn-hover-color);
+}
+.button-example-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
