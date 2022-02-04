@@ -1,6 +1,6 @@
 
 :root{
-    --input-success-color: ##1abb1a;
+    --input-success-color: #1abb1a;
     --input-error-color: #ff0000;
     --input-focus-color: #1f0e03;
     --input-border-color: #000000;
@@ -34,7 +34,7 @@
     background-image: url('/assets/search-icon.png');
     background-position: 5px 9px;
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 1.25rem;
     padding: 0.75rem 2rem;
 }
 .mandatory-icon{
