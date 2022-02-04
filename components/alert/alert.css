@@ -1,6 +1,17 @@
+:root{
+    --alert-primary-bgd-color: #88C0F4;
+    --alert-primary-color: #6366F1;
+    --alert-success-bgd-color: #a8f0c6;
+    --alert-success-color: #20aa20;
+    --alert-danger-bgd-color: #f7a7a3;
+    --alert-danger-color: #EA1C0D;
+    --alert-warning-bgd-color: #ffd48a;
+    --alert-warning-color: #8a5700;
+
+}
 .alert{
     position:relative;
-    max-width:600px;
+    max-width:37rem;
     width: calc(100% - 0.5rem);
     margin: 0.5rem;
     padding: 1rem;
@@ -8,43 +19,43 @@
 }
 .close-btn {
     position: absolute;
-    right: 11px;
-    top: 17px;
+    right: 0.68rem;
+    top: 1.06rem;
     opacity: 0.3;
 }
 .primary-alert{
-    background-color: #88C0F4;
-    border-left: 5px solid #6366F1;
-    color: #6366F1;
+    background-color: var(--alert-primary-bgd-color);
+    border-left: 5px solid var(--alert-primary-color);
+    color: var(--alert-primary-color);
 }
 .success-alert{
-    background-color: #a8f0c6;
-    border-left: 5px solid #20aa20;
-    color: #20aa20;
+    background-color: var(--alert-success-bgd-color);
+    border-left: 5px solid var(--alert-success-color);
+    color: var(--alert-success-color);
 }
 .danger-alert{
-    background-color: #f7a7a3;
-    border-left: 5px solid #EA1C0D;
-    color: #EA1C0D;
+    background-color: var(--alert-danger-bgd-color);
+    border-left: 5px solid var(--alert-danger-color);
+    color: var(--alert-danger-color);
 }
 .warning-alert{
-    background-color: #ffd48a;
-    border-left: 5px solid #8a5700;
-    color: #8a5700;
+    background-color: var(--alert-warning-bgd-color);
+    border-left: 5px solid var(--alert-warning-color);
+    color: var(--alert-warning-color);
 }
 .primary-outline-alert{
-    border: 2px solid #6366F1;
-    color: #6366F1;
+    border: 2px solid var(--alert-primary-color);
+    color: var(--alert-primary-color);
 }
 .success-outline-alert{
-    border: 2px solid #20aa20;
-    color: #20aa20;
+    border: 2px solid var(--alert-success-color);
+    color: var(--alert-success-color);
 }
 .danger-outline-alert{
-    border: 2px solid #EA1C0D;
-    color: #EA1C0D;
+    border: 2px solid var(--alert-danger-color);
+    color: var(--alert-danger-color);
 }
 .warning-outline-alert{
-    border: 2px solid #ffd48a;
-    color: #ffd48a;
+    border: 2px solid var(--alert-warning-bgd-color);
+    color: var(--alert-warning-bgd-color);
 }
