@@ -3,7 +3,7 @@
     --online-badge-color: #008000;
     --offline-badge-color:#ff0000;
     --dnd-badge-color: #808080;
-    --white-color: #ffffff;
+    --white-text-color: #ffffff;
 }
 .badge-wrapper{
     position: relative;
