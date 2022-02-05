@@ -1,0 +1,51 @@
+:root{
+    --avatar-bgd: #2dc0e7;
+}
+.avatar{
+    border-radius: 50%;
+}
+.avatar-sq{
+    border-radius: 0.25rem;
+}
+.avatar-text{
+    background: var(--avatar-bgd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.xxl{
+    width: 12rem;
+    height: 12rem;
+    font-size: 6rem;
+}
+.xl{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+.lg{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+}
+.md{
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+.sm{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+.xs{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.avatar-example-container{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    flex-wrap: wrap;
+}
