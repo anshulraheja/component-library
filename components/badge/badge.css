@@ -1,5 +1,9 @@
 :root {
     --notification-badge-color: #2dc0e7;
+    --online-badge-color: #008000;
+    --offline-badge-color:#ff0000;
+    --dnd-badge-color: #808080;
+    --white-color: #ffffff;
 }
 .badge-wrapper{
     position: relative;
@@ -15,8 +19,8 @@
     position: absolute;
     width: 1rem;
     height: 1rem;
-    font-size: 10px;
-    border: 1px solid #ffffff;
+    font-size: 0.6rem;
+    border: 1px solid var(--white-color);
     border-radius: 50%;
 }
 .avatar-badge{
@@ -25,21 +29,21 @@
 }
 .notification-badge{
     background: var(--notification-badge-color);
-    color: #ffffff;
+    color: var(--white-color);
     display: flex;
     justify-content: center;
     align-items: center;
     top: 0;
-    right: 8px;
+    right: 0.5rem;
 }
 .online{
-    background: green;
+    background: var(--online-badge-color);
 }
 .offline{
-    background: red;
+    background: var(--offline-badge-color);
 }
 .dnd{
-    background: grey;
+    background: var(--dnd-badge-color);
 }
 .badge-example-container{
     display: flex;
