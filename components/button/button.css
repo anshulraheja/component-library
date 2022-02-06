@@ -29,7 +29,7 @@
     color: var(--TEXT-COLOR);
 }
 .btn-primary:hover{
-    background: var(--primary-btn-hover-color);
+    background: var(--PRIMARY-BTN-HOVER-COLOR);
 }
 .btn-error{
     background: var(--ERROR-BTN-COLOR);
