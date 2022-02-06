@@ -35,6 +35,13 @@
    flex: calc(100% - var(--sidebar-width));
    overflow: auto;
 }
+/* example containers */
+.button-example-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 @media (max-width:768px){
     .sidebar-container{
         display: none;
