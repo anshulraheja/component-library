@@ -1,0 +1,27 @@
+:root {
+    --LIST-BORDER-COLOR: #a7a0a0;
+    --LIST-BDG-COLOR: #dbdbdb;
+    --LIST-TIME-COLOR: #585656;
+}
+.list-group {
+    border: 1px solid var(--LIST-BORDER-COLOR);
+    max-width: 30rem;
+    background-color: var(--LIST-BDG-COLOR);
+}
+.list-item {
+    cursor: pointer;
+    list-style: none;
+    padding: 0.5rem;
+}
+.list-item + .list-item {
+    border-top: 1px solid var(--LIST-BORDER-COLOR);
+}
+.list-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.9;
+}
+.list-heading > h6 {
+    color: var(--LIST-TIME-COLOR);
+}
