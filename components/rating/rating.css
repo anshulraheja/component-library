@@ -1,0 +1,38 @@
+:root {
+    --RATING-CHECKED-COLOR: #FFA500;
+    --RATING-UNCHECKED-COLOR: #DDD;
+}
+.rating {
+    display: inline-flex;    
+}
+
+.rating_input {
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+.rating_label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 1.5rem;
+}
+
+.rating_icon {
+    color: var(--RATING-CHECKED-COLOR);
+}
+
+.rating_input:checked ~ .rating_label .rating_icon {
+color: var(--RATING-UNCHECKED-COLOR);
+}
+
+.rating:hover .rating_label .rating_icon {
+color: var(--RATING-CHECKED-COLOR);
+}
+
+.rating_input:hover ~ .rating_label .rating_icon {
+color: var(--RATING-UNCHECKED-COLOR);
+}
+
+
+
+
