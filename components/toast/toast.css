@@ -1,0 +1,36 @@
+:root{
+    --TOAST-BDG-COLOR: #252323f5;
+    --TOAST-TEXT-COLOR: #dcdcdc;
+    --TOAST-BTN-COLOR: #ff00ff;
+    --TOAST-BTN-HOVER-COLOR: #a444a4;
+}
+.toast{
+    max-width: 400px;
+    width: 100%;
+    background: var(--TOAST-BDG-COLOR);
+    color: VAR(--TOAST-TEXT-COLOR);
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.toast-button > button {
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: var(--TOAST-BTN-COLOR);
+}
+.toast-button > button:hover{
+    background: vaR(--TOAST-BTN-HOVER-COLOR);
+    color: var(--TOAST-TEXT-COLOR);
+}
+.toast-icon{
+    color: var(--TOAST-TEXT-COLOR);
+}
+.toast-close{
+    align-self: flex-start;
+    color: var(--TOAST-TEXT-COLOR);
+    cursor: pointer;
+}
