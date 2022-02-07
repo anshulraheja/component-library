@@ -27,6 +27,9 @@ button, a{
 li{
     list-style: none;
 }
+iframe{
+    display: block;
+}
 /* common css */
 body{
     background: var(--white);
