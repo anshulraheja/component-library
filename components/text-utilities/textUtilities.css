@@ -1,0 +1,45 @@
+:root{
+    --GREY-TXT: #6c757d;
+}
+.h1{
+    font-size: 2rem;
+}
+.h2{
+    font-size: 1.5rem;
+}
+.h3{
+    font-size: 1.17rem;
+}
+.h4{
+    font-size: 1rem;
+}
+.h5{
+    font-size: 0.83rem;
+}
+.h6{
+    font-size: 0.67rem;
+}
+.txt-light {
+    font-weight: 300;
+}
+.txt-light {
+    font-weight: 300;
+}
+.txt-semibold {
+    font-weight: 600;
+}
+.txt-bold {
+    font-weight: 700;
+}
+.txt-grey {
+    color: var(--GREY-TXT);
+}
+.txt-strike-through {
+    text-decoration: line-through;
+}
+.txt-strike-through {
+    text-decoration: line-through;
+}
+.txt-right {
+    text-align: right;
+}
