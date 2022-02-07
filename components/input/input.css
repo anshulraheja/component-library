@@ -28,7 +28,7 @@
     border: 2px solid var(--input-error-color);
 }
 .input:focus{
-    border: 2px solid var(--input-focus-color);
+    border-color: var(--input-focus-color);
 }
 .with-image-input{
     background-image: url('/assets/search-icon.png');
