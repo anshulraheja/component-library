@@ -1,0 +1,27 @@
+.navbar{
+    color: var(--black);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.left-nav{
+    display: flex;
+    gap: 1rem;
+}
+.left-nav a {
+    color: var(--black);
+}
+.menu-icon{
+    display: none;
+}
+.right-nav{
+    display: flex;
+    gap: 1rem;
+}
+.right-nav a{
+    color: rgba(51, 51, 51, 0.7);
+}
