@@ -1,0 +1,8 @@
+.image{
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+}
+.round-image{
+    border-radius: 50%;
+}
