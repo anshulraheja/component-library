@@ -5,10 +5,10 @@
     --TOAST-BTN-HOVER-COLOR: #a444a4;
 }
 .toast{
-    max-width: 400px;
+    max-width: 25rem;
     width: 100%;
     background: var(--TOAST-BDG-COLOR);
-    color: VAR(--TOAST-TEXT-COLOR);
+    color: var(--TOAST-TEXT-COLOR);
     padding: 0.75rem;
     border-radius: 0.25rem;
     display: flex;
@@ -23,7 +23,7 @@
     color: var(--TOAST-BTN-COLOR);
 }
 .toast-button > button:hover{
-    background: vaR(--TOAST-BTN-HOVER-COLOR);
+    background: var(--TOAST-BTN-HOVER-COLOR);
     color: var(--TOAST-TEXT-COLOR);
 }
 .toast-icon{
