@@ -35,6 +35,9 @@
    flex: calc(100% - var(--sidebar-width));
    overflow: auto;
 }
+.documentation-container > h1 {
+    margin-bottom: 1rem;
+}
 /* example containers */
 .button-example-container{
     display: flex;
