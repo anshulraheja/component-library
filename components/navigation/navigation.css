@@ -1,0 +1,52 @@
+:root{
+    --COLOR-WHITE: #FFFFFF;
+    --COLOR-BLACK: #000000;
+    --COLOR-SECONDARY: GREY;
+    --COLOR-BODY: #F4F4F4;
+    --COLOR-HEADER-BKGD: #1C1C1C;
+    --COLOR-SEARCH-BAR: #2A2A2A;
+    --COLOR-HEADER-TEXT: #DBDBDB;
+
+}
+.header{
+    background: var(--COLOR-HEADER-BKGD);
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    z-index: 1;
+}
+.logo {
+    color: var(--COLOR-HEADER-TEXT);
+    font-weight: 700;
+}
+.searchBar{
+    max-width: 30rem;
+    flex: 1 1 20rem;
+}
+.search-input{
+    background: no-repeat 4px url(../assets/search-icon.png);
+    background-size: 1rem;
+    background-color: var(--COLOR-SEARCH-BAR);
+    color: var(--COLOR-WHITE);
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--COLOR-SEARCH-BAR);
+}
+.desktop-actions{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.btn-login{
+    background: var(--COLOR-HEADER-TEXT);
+    color: var( --COLOR-HEADER-BKGD);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+}
+.badge-wrapper{
+    color: var(--COLOR-HEADER-TEXT);
+    width: 2rem;
+    position: relative;
+}
