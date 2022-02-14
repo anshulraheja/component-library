@@ -1,0 +1,27 @@
+:root{
+    --COLOR-COL-1: #1C1C1C;
+    --COLOR-COL-2: #2A2A2A;
+}
+.grid {
+    display: grid;
+    gap: 0.5rem;
+}
+.col-50-50{
+    grid-template-columns: 1fr 1fr;
+}
+.col-70-30{
+    grid-template-columns: 7fr 3fr;
+}
+.col-30-70{
+    grid-template-columns: 3fr 7fr;
+}
+.grid-first-col, .grid-second-col{
+    height: 100px;
+    color: var(--white);
+}
+.grid-second-col{
+    background-color: var(--COLOR-COL-1);
+}
+.grid-first-col{
+    background: var(--COLOR-COL-2);
+}
