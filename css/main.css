@@ -45,6 +45,10 @@
     gap: 10px;
     flex-wrap: wrap;
 }
+.text-utilities-example-container {
+    border: 1px solid var(--black);
+    padding: 1rem;
+}
 @media (max-width:768px){
     .sidebar-container{
         display: none;
