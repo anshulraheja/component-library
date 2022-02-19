@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root {
     --black: #333333;
     --white: #f5f5f5;
@@ -12,7 +12,7 @@ html {
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 img {
     width: 100%;

@@ -38,6 +38,10 @@
 .documentation-container > h1 {
     margin-bottom: 1rem;
 }
+/* installation page */
+.installation-subheading{
+    margin-bottom: 0.5rem;
+}
 /* example containers */
 .button-example-container{
     display: flex;
